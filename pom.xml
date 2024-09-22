@@ -6,7 +6,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>FinalProjectModule_Four</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0-LTS</version>
 
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
@@ -54,6 +54,16 @@
             <artifactId>mockito-core</artifactId>
             <version>3.9.0</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.30</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.3</version>
         </dependency>
 
     </dependencies>
